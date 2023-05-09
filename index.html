@@ -1,54 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sofiullah Iqbal Kiron: github pages</title>
+    <title>Sofiullah Iqbal Kiron | Web Programmer</title>
 
-    <!-- react cdn -->
-    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-</head>
-
-<body>
+    <script type="module" crossorigin src="/assets/index-55eeaf5f.js"></script>
+    <link rel="stylesheet" href="/assets/index-8b13b0cc.css">
+  </head>
+  <body>
     <div id="root"></div>
-
-    <script type="text/babel">
-        function Header() {
-            const more_about_me_styles = {
-                marginTop: "1%",
-                marginBottom: "2%",
-            }
-
-            return (
-                <div className="text-left text-bg-primary" style={{ padding: "20%" }}>
-                    <h1>
-                        Hello, my name is <span className="text-bg-dark p-1">Sofiullah Iqbal Kiron</span>
-                    </h1>
-                    <h2>I'm the Full Stack Web Programmer.</h2>
-                    <a style={more_about_me_styles} className='text-bg-secondary btn btn-link mt-5' href="#">More</a>
-                </div>
-            );
-        }
-
-        function App() {
-            return (
-                <div>
-                    <Header />
-                </div>
-            );
-        }
-
-        const root = document.getElementById("root");
-        ReactDOM.createRoot(root).render(<App />);
-    </script>
-</body>
-
+  </body>
 </html>
